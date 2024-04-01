@@ -1,0 +1,36 @@
+@media only screen and (max-width: 860px) {
+  main {
+    max-width: 500px;
+  }
+  header{
+    display: none;
+  }
+  
+  .box {
+    padding: 4rem 2rem;
+    padding-bottom: 6rem;
+  }
+  
+ 
+  .navigation{
+    min-width: 100vw;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    padding-bottom: 7rem;
+  }
+
+  .card{
+    max-width: 450px;
+  }
+ 
+}
+@media only screen and (min-width: 860px){
+  .navigation{
+    display: none;
+  }
+}

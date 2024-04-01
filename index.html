@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Developer - Portfolio website</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/utility.css" />
+    <link rel="stylesheet" href="./styles/mediaquerry.css" />
+    <link rel="stylesheet" href="./styles/mediaquerry.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+      integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link" href="#hero">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a
+                class="nav-link disabled"
+                href="#Blog"
+                tabindex="-1"
+                aria-disabled="true"
+                >Blog</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <header>
+      <div class="nav u-container">
+        <div class="left">
+          <h1><span>Beeplap G. </span> Magar</h1>
+        </div>
+        <div class="center">
+          <a href="#home">Home</a>
+          <a href="#hero">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#Blog">Blog</a>
+        </div>
+      </div>
+    </header>
+    <div id="home">
+      <section class="herosection">
+        <div class="herodiv u-container">
+          <div class="hero-left">
+            <h2 class="hero-h2">I'm a <span>Frontend dev</span>eloper</h2>
+            <p class="hero-p">
+              I'm a Frontend Web Developer and a freelancer with over a year of
+              hands-on experience in Next.js, HTML, React, CSS, Tailwind, and
+              javascript. I excel in crafting dynamic applications and
+              navigating the software development life cycle.
+            </p>
+            <div class="button">
+              <button class="hero-button1">Hire Me</button>
+              <button class="hero-button">
+                <i class="ri-play-circle-fill"></i> &emsp; Contact Me
+              </button>
+            </div>
+          </div>
+          <div class="hero-right">
+            <figure>
+              <img src="./Assets/hy.png" alt="image" class="hero-img" />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="hero">
+      <section class="hero">
+        <div class="exp">
+          <div class="head u-container">
+            <h1>Skills and Expertise</h1>
+            <p>
+              During my enriching 1 month training at Butwal Kalika Campus, I
+              got a chance to delved into the dynamic world of web development &
+              gained valuable expertise in cutting-edge technologies.
+            </p>
+          </div>
+
+          <div id="icon">
+            <div class="box"><i class="ri-html5-fill"></i> HTML</div>
+            <div class="box"><i class="ri-css3-fill"></i> css</div>
+            <div class="box"><i class="ri-reactjs-line"></i> react</div>
+            <div class="box"><i class="ri-javascript-fill"></i>javascript</div>
+            <div class="box"><i class="ri-tailwind-css-fill"></i>Tailwind</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container u-container">
+      <div class="card">
+        <img
+          class="dev-img"
+          src="./Assets/gettyimages-1352603244-612x612.jpg"
+          alt=""
+        />
+        <div class="inside">
+          <button class="a">Developer</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
+      </div>
+      <div class="card">
+        <img class="dev-img" src="./Assets/hi.avif" alt="" />
+        <div class="inside">
+          <button class="b">Designer</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="dev-img"
+          src="./Assets/person-front-computer-working-html_23-2150038835.jpg"
+          alt=""
+        />
+        <div class="inside">
+          <button class="c">Editor</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <a href="#"> <i class="ri-arrow-right-circle-line"></i></a>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="u-container contact">
+        <div class="contactl">
+          <img class="nft" src="./Assets/nft.webp" alt="" />
+        </div>
+        <div class="contactr">
+          <div class="high"><h1>Contact Us</h1></div>
+          <div class="low">
+            <div class="lowl">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" />
+              <label for="email">E-mail</label>
+              <input type="email" id="email" />
+              <label for="msg">Message</label>
+              <input type="text" id="msg" />
+              <button class="ctn">Contact Us</button>
+            </div>
+            <div class="lowr">
+              <div class="ctop">
+                <h3>Contact</h3>
+                <p>ghartibeeplap@gmail.com</p>
+              </div>
+              <div class="cmid">
+                <h3>Based in</h3>
+                <p>Butwal, <br />Rupandehi</p>
+              </div>
+              <div class="clow">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=100069332372121"
+                  ><i class="ri-facebook-fill"></i
+                ></a>
+                <a target="_blank" href="https://www.instagram.com/beeplap___/"
+                  ><i class="ri-instagram-line"></i
+                ></a>
+                <a target="_blank" href="https://twitter.com/beeplap_"
+                  ><i class="ri-twitter-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="end">
+      <div class="endt">
+        <h4>Code Opacity</h4>
+        <p>
+          NEED A WEB DEVELOPER? <br />
+          LET'S BUILD SOMETHING!
+        </p>
+        <div class="iconic">
+          <i class="ri-google-fill"></i>
+          <i class="ri-linkedin-box-fill"></i>
+          <i class="ri-github-fill"></i>
+          <i class="ri-dribbble-line"></i>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h5>
+        Copyright<i class="ri-copyright-line"></i>2024 CodeOpacity, Design By
+        <span>Beeplap</span>
+      </h5>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+      integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
